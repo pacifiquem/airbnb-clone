@@ -1,14 +1,10 @@
 import Head from 'next/head'
-// import Image from 'next/image'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import LargeCard from '../components/LargeCard'
 import MediumCard from '../components/MediumCard'
-// import SmallCard from '../components/SmallCard'
 import SmallCard from '../components/SmallCard'
-// import SmallCard2 from '../components/SmallCard2'
-// import styles from '../styles/Home.module.css'
 
 export default function Home({ explore, cardsData }) {
   return (
@@ -34,7 +30,8 @@ export default function Home({ explore, cardsData }) {
             key={img}
             img={img}
             distance={distance}
-            location={location} />
+            location={location} 
+          />
         ))}
       </div>
       </section>
