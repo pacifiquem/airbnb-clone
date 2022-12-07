@@ -15,10 +15,11 @@ body::-webkit-scrollbar {
     width: 10px;               /* width of the entire scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background: rgb(248 113 113);        /* color of the tracking area */
+    background-color: rgba(222, 222, 222, 0.768);         /* color of the tracking area */
   }
   body::-webkit-scrollbar-thumb {
-    background-color: rgb(157, 157, 161);    /* color of the scroll thumb */
+
+    background: rgba(248, 113, 113, 0.812);     /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 1px solid rgb(248 113 113);  /* creates padding around scroll thumb */
+    border: 1px solid rgba(248, 113, 113, 0.812);  /* creates padding around scroll thumb */
   }
